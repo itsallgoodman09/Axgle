@@ -35,7 +35,7 @@
                 android:layout_margin="10dp"
                 android:id="@+id/hd_pic"
                 android:src="@drawable/ic_hd_black_18dp"
-                android:tint="@color/white"/>
+                android:tint="@color/gray"/>
 
             <ImageView
                 android:layout_width="25dp"
@@ -44,7 +44,7 @@
                 android:id="@+id/thumb_up_image"
                 android:layout_toLeftOf="@+id/like_num"
                 android:layout_alignTop="@+id/dislike_num"
-                android:tint="@color/white"/>
+                android:tint="@color/gray"/>
 
 
             <TextView
@@ -58,7 +58,7 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textStyle="bold"
                 android:padding="3dp"
-                android:textColor="@color/white"/>
+                android:textColor="@color/gray"/>
 
             <ImageView
                 android:layout_width="25dp"
@@ -67,7 +67,7 @@
                 android:id="@+id/thumb_down_image"
                 android:layout_toLeftOf="@+id/dislike_num"
                 android:layout_alignTop="@+id/dislike_num"
-                android:tint="@color/white"/>
+                android:tint="@color/gray"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -79,7 +79,7 @@
                 android:padding="3dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textStyle="bold"
-                android:textColor="@color/white"/>
+                android:textColor="@color/gray"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -158,10 +158,11 @@
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/ic_add_box_white_18dp"
+                android:src="@drawable/ic_add_box_black_18dp"
                 android:layout_alignParentRight="true"
                 android:layout_margin="10dp"
-                android:id="@+id/all_videos_add_box"/>
+                android:id="@+id/all_videos_add_box"
+                android:tint="@color/gray"/>
 
 
 

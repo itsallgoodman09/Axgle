@@ -75,7 +75,7 @@ public class ShowVideoPreviewActivity extends AppCompatActivity implements Order
             @Override
             public void onClick(View view) {
                 orderDialogFragment = OrderDialogFragment.newInstance(fabOptions);
-                orderDialogFragment.setCancelable(false);
+                orderDialogFragment.setCancelable(true);
                 orderDialogFragment.show(getSupportFragmentManager(), OrderDialogFragment.TAG);
             }
         });

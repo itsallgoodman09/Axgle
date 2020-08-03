@@ -32,7 +32,7 @@ public class ShowUserCollectionActivity extends AppCompatActivity implements Cov
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_user_collection);
         Intent intent = getIntent();
-        isBlur = intent.getBooleanExtra("needBlur", true);
+        isBlur = intent.getBooleanExtra("needBlur", false);
         dbHelper = new UserFavVideoDatabaseHelper(this);
 
         recyclerView = findViewById(R.id.user_collect_videos_recycler_view);

@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity implements OrderDialogFragme
             }
         });
 
-        setNeedBlur(true);
+        setNeedBlur(false);
         viewPager = (ViewPager) findViewById(R.id.view_pager);
         viewPager.setAdapter(new TabsPagerAdapter(getSupportFragmentManager(), needBlur));
 
@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity implements OrderDialogFragme
         navigationView.setNavigationItemSelectedListener(this);
 
         final SparseArray<Fragment> tabsFragments = ((TabsPagerAdapter)viewPager.getAdapter()).getFragments();
-        blurSwitch.setChecked(true);
+        blurSwitch.setChecked(false);
         blurSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
